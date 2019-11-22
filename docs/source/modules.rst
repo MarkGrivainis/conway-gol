@@ -1,5 +1,5 @@
-src
-===
+conway
+======
 
 .. toctree::
    :maxdepth: 4
