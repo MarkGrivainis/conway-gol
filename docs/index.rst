@@ -10,7 +10,8 @@ Welcome to conway-gol's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   conway
+   grid
 
 Indices and tables
 ==================
