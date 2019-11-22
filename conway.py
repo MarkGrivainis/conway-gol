@@ -96,19 +96,12 @@ def draw_N(grid, N):
 
 @timefn
 def main():
-    grid = initialize_grid(
-        width=GRID_W, height=GRID_H, config="pentamino", x=75, y=75
-    )
+    grid = initialize_grid(width=GRID_W, height=GRID_H, config="pentamino", x=75, y=75)
     # draw_N(grid, 1000)
     # update_grid.parallel_diagnostics(level=1)
     fig = plt.figure()
     im = plt.imshow(
-        grid,
-        cmap="Greys",
-        aspect="equal",
-        interpolation="none",
-        vmin=0,
-        vmax=1,
+        grid, cmap="Greys", aspect="equal", interpolation="none", vmin=0, vmax=1
     )
     ani = FuncAnimation(
         fig,
