@@ -1,0 +1,6 @@
+/home/markg/Projects/teaching/bioinformatics/Topic_7/.venv/lib/python3.7/site-packages/Conway_GOL-0.0.0-py3.7.egg
+/home/markg/Projects/teaching/bioinformatics/Topic_7/.venv/bin/f2py
+/home/markg/Projects/teaching/bioinformatics/Topic_7/.venv/bin/f2py3
+/home/markg/Projects/teaching/bioinformatics/Topic_7/.venv/bin/f2py3.7
+/home/markg/Projects/teaching/bioinformatics/Topic_7/.venv/bin/easy_install
+/home/markg/Projects/teaching/bioinformatics/Topic_7/.venv/bin/easy_install-3.6
