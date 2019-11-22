@@ -11,6 +11,8 @@ Welcome to conways-gol's documentation!
    :caption: Contents:
 
 
+conway
+grid
 
 Indices and tables
 ==================
@@ -20,4 +22,4 @@ Indices and tables
 * :ref:`search`
 
 
-Something
+
