@@ -1,0 +1,26 @@
+metadata:
+  name: python
+projects:
+  - name: python-conway-GOL
+    source:
+      location: 'https://github.com/MarkGrivainis/conway-gol.git'
+      type: git
+attributes:
+  persistVolumes: 'false'
+components:
+  - id: ms-python/python/latest
+    memoryLimit: 512Mi
+    type: chePlugin
+  - mountSources: true
+    memoryLimit: 512Mi
+    type: dockerimage
+    alias: python
+    image: 'quay.io/eclipse/che-python-3.7:nightly'
+apiVersion: 1.0.0
+commands:
+  - name: run
+    actions:
+      - workdir: '${CHE_PROJECTS_ROOT}/'
+        type: exec
+        command: python -m src.conway.conway
+        component: python
