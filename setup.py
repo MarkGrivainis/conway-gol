@@ -11,7 +11,7 @@ setup(
     # long_description=open('README.txt').read(),
     install_requires=[
         "numba == 0.46.0",
-        "numpy == 1.17.4",
+        "numpy == 1.22.0",
         "matplotlib == 3.1.2",
     ],
 )
